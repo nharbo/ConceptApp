@@ -10,26 +10,81 @@ import UIKit
 import GoogleMobileAds
 
 class Dfp320x320: UIViewController {
-    
-    @IBOutlet weak var adView: DFPBannerView!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        adView.adUnitID = "/6499/example/banner"
+
+	@IBOutlet weak var adView: DFPBannerView!
+
+	override func viewDidLoad() {
+		super.viewDidLoad()
+
+        adView.adUnitID = "/5706918/concept_app_mob1"
         adView.rootViewController = self
-//        adView.loadRequest(DFPRequest())
+        adView.delegate = self
+        adView.adSizeDelegate = self
         
-        //This is just for testing
-        let request: GADRequest = GADRequest()
-        request.testDevices = ["e31b3282865187f17443d3b10e73c949", kGADSimulatorID]
-        adView.loadRequest(request)
+        adView.validAdSizes = [NSValueFromGADAdSize(kGADAdSizeMediumRectangle), NSValueFromGADAdSize(GADAdSizeFromCGSize(CGSize(width: 320, height: 320)))] //300x250
+        
+        
+        adView.load(DFPRequest())
+        
+	}
 
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-
+	override func didReceiveMemoryWarning() {
+		super.didReceiveMemoryWarning()
+	}
 
 }
+
+extension Dfp320x320: GADBannerViewDelegate {
+    
+    func adView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: GADRequestError) {
+        print(error.description)
+    }
+
+	func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+        
+        print("-- \(bannerView.adSize) --")
+		print("Banner adapter class name: \(bannerView.adNetworkClassName!)")
+	}
+
+	func interstitialDidReceiveAd(_ ad: GADInterstitial) {
+		print("Interstitial adapter class name: \(ad.adNetworkClassName)")
+	}
+
+}
+
+extension Dfp320x320: GADAdSizeDelegate {
+    func adView(_ bannerView: GADBannerView, willChangeAdSizeTo size: GADAdSize) {
+        print("willChangeAdSizeTo: \(size)")
+    }
+    
+}
+
+
+//extension Dfp320x320: GADCustomEventBannerDelegate {
+//
+//    func customEventBanner(customEvent: GADCustomEventBanner, didReceiveAd view: UIView) {
+//        print("didReceiveAd")
+//    }
+//
+//    func customEventBanner(customEvent: GADCustomEventBanner, didFailAd error: NSError?) {
+//        print(error?.description)
+//    }
+//
+//    func customEventBannerWasClicked(customEvent: GADCustomEventBanner) {
+//        print("Banner clicked")
+//    }
+//
+//    func adViewWillLeaveApplication(bannerView: GADBannerView) {
+//        print("adViewWillLeaveApplication")
+//    }
+//
+//    func customEventBannerDidDismissModal(customEvent: GADCustomEventBanner) {
+//        print("customEventBannerDidDismissModal")
+//    }
+//
+//    func customEventBanner(customEvent: GADCustomEventBanner, clickDidOccurInAd view: UIView) {
+//
+//    }
+//
+//
+//}

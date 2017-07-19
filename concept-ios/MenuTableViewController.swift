@@ -22,47 +22,47 @@ class MenuTableViewController: UITableViewController {
 
 	// MARK: - Table view data source
 
-	override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+	override func numberOfSections(in tableView: UITableView) -> Int {
 		return 1
 	}
 
-	override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+	override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		return 6
 	}
 
-	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
 		if indexPath.row == 0 {
-			let cell = tableView.dequeueReusableCellWithIdentifier("logoCell", forIndexPath: indexPath) as UITableViewCell
+			let cell = tableView.dequeueReusableCell(withIdentifier: "logoCell", for: indexPath) as UITableViewCell
 			return cell
 		}
 		if indexPath.row == 1 {
-			let cell = tableView.dequeueReusableCellWithIdentifier("AdFormTableViewCell", forIndexPath: indexPath) as! AdFormTableViewCell
+			let cell = tableView.dequeueReusableCell(withIdentifier: "AdFormTableViewCell", for: indexPath) as! AdFormTableViewCell
 			return cell
 		}
 		if indexPath.row == 2 {
-			let cell = tableView.dequeueReusableCellWithIdentifier("AppNexusTableViewCell", forIndexPath: indexPath) as! AppNexusTableViewCell
+			let cell = tableView.dequeueReusableCell(withIdentifier: "AppNexusTableViewCell", for: indexPath) as! AppNexusTableViewCell
 			return cell
 		}
 		if indexPath.row == 3 {
-			let cell = tableView.dequeueReusableCellWithIdentifier("DfpTableViewCell", forIndexPath: indexPath) as! DfpTableViewCell
+			let cell = tableView.dequeueReusableCell(withIdentifier: "DfpTableViewCell", for: indexPath) as! DfpTableViewCell
 			return cell
 		}
 		if indexPath.row == 4 {
-			let cell = tableView.dequeueReusableCellWithIdentifier("PolarTableViewCell", forIndexPath: indexPath) as! PolarTableViewCell
+			let cell = tableView.dequeueReusableCell(withIdentifier: "PolarTableViewCell", for: indexPath) as! PolarTableViewCell
 			return cell
 		} else {
-			let cell = tableView.dequeueReusableCellWithIdentifier("SitesAndAppsTableViewCell", forIndexPath: indexPath) as! SitesAndAppsTableViewCell
+			let cell = tableView.dequeueReusableCell(withIdentifier: "SitesAndAppsTableViewCell", for: indexPath) as! SitesAndAppsTableViewCell
 			return cell
 		}
 
 	}
 
-	override func tableView(tableView: UITableView, estimatedHeightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+	override func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
 		return 80
 	}
 
-	override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+	override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 		return UITableViewAutomaticDimension
 	}
 

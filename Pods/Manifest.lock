@@ -1,15 +1,26 @@
 PODS:
-  - Google-Mobile-Ads-SDK (7.17.0)
+  - AdformAdvertising (2.8.0)
+  - FBAudienceNetwork (4.23.0)
+  - Google-Mobile-Ads-SDK (7.21.0)
+  - GoogleMobileAdsMediationFacebook (4.23.0.0):
+    - FBAudienceNetwork (= 4.23.0)
+    - Google-Mobile-Ads-SDK (>= 7.12.0)
   - SWRevealViewController (2.3.0)
 
 DEPENDENCIES:
+  - AdformAdvertising
+  - FBAudienceNetwork
   - Google-Mobile-Ads-SDK
+  - GoogleMobileAdsMediationFacebook
   - SWRevealViewController
 
 SPEC CHECKSUMS:
-  Google-Mobile-Ads-SDK: a8bf4211624999b73e4184be516f94770b139525
+  AdformAdvertising: aab714fb808b7008c64a3f11100738f36b9b4615
+  FBAudienceNetwork: 20a0e3d20e377dbb6708365e4c6d0711bf08ca97
+  Google-Mobile-Ads-SDK: 4a6f1b43c8cc0e1e95a3b59d9f52a01671c6f9f3
+  GoogleMobileAdsMediationFacebook: e235673daacffea2df76f9abca4e1a608569e308
   SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
 
-PODFILE CHECKSUM: 45db4a5877d622fac6b469eae68af1f0f7b97644
+PODFILE CHECKSUM: 6293ecce10957679559d23f364d4f3afd0001757
 
 COCOAPODS: 1.0.1

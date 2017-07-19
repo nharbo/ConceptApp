@@ -8,28 +8,42 @@
 
 import UIKit
 import GoogleMobileAds
+import WebKit
 
 class Dfp300x250: UIViewController {
-    
-    
-    @IBOutlet weak var adView: DFPBannerView!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+	@IBOutlet weak var adView: DFPBannerView!
 
-        adView.adUnitID = "/6499/example/banner"
+	override func viewDidLoad() {
+		super.viewDidLoad()
+
+		adView.adUnitID = "/5706918/concept_app_mob1"
+//        adView.validAdSizes = [NSValueFromGADAdSize(GADAdSizeFromCGSize(CGSize(width: 320, height: 320))), NSValueFromGADAdSize(kGADAdSizeMediumRectangle)] //300x250
         adView.rootViewController = self
-        //        adView.loadRequest(DFPRequest())
+		adView.load(DFPRequest())
+        adView.delegate = self
+	}
+
+	override func didReceiveMemoryWarning() {
+		super.didReceiveMemoryWarning()
+	}
+
+}
+
+extension Dfp300x250: GADBannerViewDelegate {
+    
+    func adView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: GADRequestError) {
+        print(error.description)
+    }
+    
+    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
         
-        //This is just for testing
-        let request: GADRequest = GADRequest()
-        request.testDevices = ["e31b3282865187f17443d3b10e73c949", kGADSimulatorID]
-        adView.loadRequest(request)
+        print("-- \(bannerView.adSize) --")
+        print("Banner adapter class name: \(bannerView.adNetworkClassName!)")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    
+    func interstitialDidReceiveAd(_ ad: GADInterstitial) {
+        print("Interstitial adapter class name: \(String(describing: ad.adNetworkClassName))")
     }
-
-
+    
 }

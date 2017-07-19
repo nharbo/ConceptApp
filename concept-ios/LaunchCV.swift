@@ -14,10 +14,10 @@ class LaunchCV: UIViewController {
         super.viewDidLoad()
     }
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         //Do launch animations here
-        self.performSegueWithIdentifier("LaunchToHome", sender: nil)
+        self.performSegue(withIdentifier: "LaunchToHome", sender: nil)
     }
 
     override func didReceiveMemoryWarning() {
