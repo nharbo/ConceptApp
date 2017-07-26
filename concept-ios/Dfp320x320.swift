@@ -11,18 +11,31 @@ import GoogleMobileAds
 
 class Dfp320x320: UIViewController {
 
+    //Reference til adview
 	@IBOutlet weak var adView: DFPBannerView!
+    
+    //Referencer til adviewets størrelser - disse skal bruges til at resize view'et afhængig af hvilken størrelse banner der modtages.
+    @IBOutlet weak var adViewHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var adViewWidthConstraint: NSLayoutConstraint!
+    
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
+        //Ad-unit sættes her
         adView.adUnitID = "/5706918/concept_app_mob1"
         adView.rootViewController = self
+        
+        //OBS! Delegates skal sættes inden load-requestet køres.
+        
+        //Generel delegate
         adView.delegate = self
+        
+        //Delegate som køres inden en ad vises - denne gør det muligt at resize adview'et inden banneret vises, således view'et har den rigtige størrelse i forhold til banneret.
         adView.adSizeDelegate = self
         
-        adView.validAdSizes = [NSValueFromGADAdSize(kGADAdSizeMediumRectangle), NSValueFromGADAdSize(GADAdSizeFromCGSize(CGSize(width: 320, height: 320)))] //300x250
-        
+        //Her defineres de størrelser ad-view'et skal kunne håndtere. I dette tilfælde 300x250 og 320x320. Det er ikke tilladt at "opfinde" størrelser selv.
+        adView.validAdSizes = [NSValueFromGADAdSize(kGADAdSizeMediumRectangle), NSValueFromGADAdSize(GADAdSizeFromCGSize(CGSize(width: 320, height: 320)))] //300x250 og 320x320
         
         adView.load(DFPRequest())
         
@@ -36,13 +49,13 @@ class Dfp320x320: UIViewController {
 
 extension Dfp320x320: GADBannerViewDelegate {
     
+    //Hvis modtagelsen af et banner fejler, køres denne funktion
     func adView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: GADRequestError) {
         print(error.description)
     }
 
+    //Denne funktion køres når et banner er modtaget - her kan ses hvem der er afsender på banneret.
 	func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        
-        print("-- \(bannerView.adSize) --")
 		print("Banner adapter class name: \(bannerView.adNetworkClassName!)")
 	}
 
@@ -53,8 +66,18 @@ extension Dfp320x320: GADBannerViewDelegate {
 }
 
 extension Dfp320x320: GADAdSizeDelegate {
+    
+    //Denne funktion køres INDEN banneret vises - derfor kan adview'et resizes inden banneret vises.
     func adView(_ bannerView: GADBannerView, willChangeAdSizeTo size: GADAdSize) {
         print("willChangeAdSizeTo: \(size)")
+
+        adViewHeightConstraint.constant = size.size.height
+        adViewWidthConstraint.constant = size.size.width
+        self.view.layoutIfNeeded()
+        
+        print("adView height now: \(self.adView.frame.size.height)")
+        print("adView width now: \(self.adView.frame.size.width)")
+        
     }
     
 }

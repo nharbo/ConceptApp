@@ -482,28 +482,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sgp-jU-kHJ" customClass="DFPBannerView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cel-pB-aHf">
                                 <rect key="frame" x="27.5" y="173.5" width="320" height="320"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sgp-jU-kHJ" customClass="DFPBannerView">
+                                        <rect key="frame" x="-0.5" y="-0.5" width="320" height="320"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="320" id="VPF-sG-liJ"/>
+                                            <constraint firstAttribute="width" constant="320" id="wBg-nk-Yx9"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.91135653279999995" green="0.93367387820000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="320" id="VPF-sG-liJ"/>
-                                    <constraint firstAttribute="width" constant="320" id="wBg-nk-Yx9"/>
+                                    <constraint firstItem="Sgp-jU-kHJ" firstAttribute="centerY" secondItem="cel-pB-aHf" secondAttribute="centerY" id="OE1-m5-LRQ"/>
+                                    <constraint firstItem="Sgp-jU-kHJ" firstAttribute="centerX" secondItem="cel-pB-aHf" secondAttribute="centerX" id="ShQ-gQ-8PL"/>
+                                    <constraint firstAttribute="height" constant="320" id="aGY-Fz-dSY"/>
+                                    <constraint firstAttribute="width" constant="320" id="mtq-3k-xhG"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Sgp-jU-kHJ" firstAttribute="centerX" secondItem="GRW-qd-DDj" secondAttribute="centerX" id="aqn-Tg-JaJ"/>
-                            <constraint firstItem="Sgp-jU-kHJ" firstAttribute="centerY" secondItem="GRW-qd-DDj" secondAttribute="centerY" id="hJT-Q9-gRl"/>
+                            <constraint firstItem="cel-pB-aHf" firstAttribute="centerX" secondItem="GRW-qd-DDj" secondAttribute="centerX" id="EOw-6E-xwA"/>
+                            <constraint firstItem="cel-pB-aHf" firstAttribute="centerY" secondItem="GRW-qd-DDj" secondAttribute="centerY" id="lQl-E4-4x2"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="adView" destination="Sgp-jU-kHJ" id="CF3-CT-nke"/>
+                        <outlet property="adViewHeightConstraint" destination="VPF-sG-liJ" id="B53-mA-MGO"/>
+                        <outlet property="adViewWidthConstraint" destination="wBg-nk-Yx9" id="S8s-bZ-bSK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vuQ-Rk-CcQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3874" y="163"/>
+            <point key="canvasLocation" x="3872.8000000000002" y="162.3688155922039"/>
         </scene>
         <!--Dfp30 0x250-->
         <scene sceneID="dPr-QW-RyB">
