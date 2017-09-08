@@ -10,14 +10,17 @@ import UIKit
 import GoogleMobileAds
 
 class Dfp320x320: UIViewController {
+    
+    @IBOutlet weak var adSender: UILabel!
 
     //Reference til adview
 	@IBOutlet weak var adView: DFPBannerView!
     
+    weak var delegate: GADCustomEventBannerDelegate?
+    
     //Referencer til adviewets størrelser - disse skal bruges til at resize view'et afhængig af hvilken størrelse banner der modtages.
     @IBOutlet weak var adViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var adViewWidthConstraint: NSLayoutConstraint!
-    
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -38,13 +41,13 @@ class Dfp320x320: UIViewController {
         adView.validAdSizes = [NSValueFromGADAdSize(kGADAdSizeMediumRectangle), NSValueFromGADAdSize(GADAdSizeFromCGSize(CGSize(width: 320, height: 320)))] //300x250 og 320x320
         
         adView.load(DFPRequest())
-        
+
 	}
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 	}
-
+    
 }
 
 extension Dfp320x320: GADBannerViewDelegate {
@@ -56,12 +59,14 @@ extension Dfp320x320: GADBannerViewDelegate {
 
     //Denne funktion køres når et banner er modtaget - her kan ses hvem der er afsender på banneret.
 	func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+        self.adSender.text = "\(bannerView.adNetworkClassName!)"
 		print("Banner adapter class name: \(bannerView.adNetworkClassName!)")
 	}
 
 	func interstitialDidReceiveAd(_ ad: GADInterstitial) {
 		print("Interstitial adapter class name: \(ad.adNetworkClassName)")
 	}
+    
 
 }
 
@@ -82,32 +87,51 @@ extension Dfp320x320: GADAdSizeDelegate {
     
 }
 
+extension Dfp320x320: GADCustomEventBanner {
+    
+    func requestAd(_ adSize: GADAdSize, parameter serverParameter: String?, label serverLabel: String?, request: GADCustomEventRequest) {
+        print("requestAd, Custom Event received!")
+//        adView.load(request)
+    }
+    
+}
 
 //extension Dfp320x320: GADCustomEventBannerDelegate {
 //
-//    func customEventBanner(customEvent: GADCustomEventBanner, didReceiveAd view: UIView) {
-//        print("didReceiveAd")
+//    func customEventBanner(_ customEvent: GADCustomEventBanner, didFailAd error: Error?) {
+//        print("Error, custom event: \(error?.localizedDescription)")
 //    }
-//
-//    func customEventBanner(customEvent: GADCustomEventBanner, didFailAd error: NSError?) {
-//        print(error?.description)
+//    
+//    func customEventBanner(_ customEvent: GADCustomEventBanner, didReceiveAd view: UIView) {
+//        print(view)
 //    }
-//
-//    func customEventBannerWasClicked(customEvent: GADCustomEventBanner) {
-//        print("Banner clicked")
+//    
+//    func customEventBannerWasClicked(_ customEvent: GADCustomEventBanner) {
+//        
 //    }
-//
-//    func adViewWillLeaveApplication(bannerView: GADBannerView) {
-//        print("adViewWillLeaveApplication")
+//    
+//    func customEventBannerDidDismissModal(_ customEvent: GADCustomEventBanner) {
+//        
 //    }
-//
-//    func customEventBannerDidDismissModal(customEvent: GADCustomEventBanner) {
-//        print("customEventBannerDidDismissModal")
+//    
+//    func customEventBannerWillDismissModal(_ customEvent: GADCustomEventBanner) {
+//        
 //    }
-//
-//    func customEventBanner(customEvent: GADCustomEventBanner, clickDidOccurInAd view: UIView) {
-//
+//    
+//    func customEventBannerWillPresentModal(_ customEvent: GADCustomEventBanner) {
+//        
+//    }
+//    
+//    func customEventBannerWillLeaveApplication(_ customEvent: GADCustomEventBanner) {
+//        
 //    }
 //
 //
 //}
+
+
+
+
+
+
+

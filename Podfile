@@ -14,5 +14,6 @@ target 'concept-ios' do
   pod 'AdformAdvertising'
   pod 'FBAudienceNetwork'
   pod 'GoogleMobileAdsMediationFacebook' #Adapter
+  # AdformAdvertisingDFPAdapter -> https://github.com/adform/adform-advertising-dfp-adapter-ios
 
 end

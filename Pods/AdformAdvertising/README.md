@@ -28,6 +28,7 @@ Adform brings brand advertising to the programmatic era at scale, making display
 * [Adding Custom Values](https://github.com/adform/adform-ios-sdk/wiki/Adding-custom-values)
 * [Adding Keywords](https://github.com/adform/adform-ios-sdk/wiki/Adding-keywords)
 * [Adding Key Value Pairs](https://github.com/adform/adform-ios-sdk/wiki/Adding-key-value-pairs)
+* [Adding Search Words](https://github.com/adform/adform-ios-sdk/wiki/Adding-Search-Words)
 * [Location Tracking](https://github.com/adform/adform-ios-sdk/wiki/Location-Tracking)
 * [Security](https://github.com/adform/adform-ios-sdk/wiki/Security)
 * [Ad Tags](https://github.com/adform/adform-ios-sdk/wiki/Ad-Tags)
@@ -43,6 +44,26 @@ Adform brings brand advertising to the programmatic era at scale, making display
 # CHANGELOG
 
 This part lists release notes from all versions of Adform Mobile Advertising iOS SDK.
+
+
+# 2.10.0
+
+### New Features
+
+* It is now possible to specify which ADX servers SDK should use by setting ADX domain. Check out documentation on how to do it [here](https://github.com/adform/adform-ios-sdk/wiki/Changing-ADX-Domain).
+
+
+# 2.9.0
+
+### New Features
+
+* WKWebView support. We have changed SDK to use WKWebView to render HTML banners. WKWebView is used by default on iOS 8+ and UIWebView is used on older iOS versions. If you prefer to use the old UIWebView even on newer iSO versions, you can do this by setting web view type parameter on AdformSDK class.
+
+### Additional dependencies
+
+Don't forget to add new dependencies to your project if you are updating our SDK from older version or start using cocoapods.
+
+* WebKit.framework
 
 
 # 2.8.0

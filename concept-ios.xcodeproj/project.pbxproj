@@ -50,6 +50,7 @@
 		A8E7DF171EBB9E1C00F8F321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E7DF161EBB9E1C00F8F321 /* Assets.xcassets */; };
 		A8E7DF1A1EBB9E1C00F8F321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E7DF181EBB9E1C00F8F321 /* LaunchScreen.storyboard */; };
 		A8E7DF451EBBA12800F8F321 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7DF441EBBA12800F8F321 /* HomeVC.swift */; };
+		A8F628D01F56A71000671360 /* AdformAdvertisingDFPAdapter in Resources */ = {isa = PBXBuildFile; fileRef = A8F628CF1F56A71000671360 /* AdformAdvertisingDFPAdapter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		A8E7DF2F1EBB9E1C00F8F321 /* concept_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concept_iosUITests.swift; sourceTree = "<group>"; };
 		A8E7DF311EBB9E1C00F8F321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8E7DF441EBBA12800F8F321 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		A8F628CF1F56A71000671360 /* AdformAdvertisingDFPAdapter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AdformAdvertisingDFPAdapter; sourceTree = "<group>"; };
 		CA7766805FDE50C98EE30D1F /* Pods_concept_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_concept_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,6 +147,7 @@
 		2DCBDCE5BDF552AC5F56665C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8F628CF1F56A71000671360 /* AdformAdvertisingDFPAdapter */,
 				A8844EBB1ECB738F00BB9ED6 /* WebKit.framework */,
 				A8844EB91ECB738700BB9ED6 /* EventKitUI.framework */,
 				A8844EB71ECB737D00BB9ED6 /* libz.tbd */,
@@ -420,6 +423,7 @@
 				A8E7DF1A1EBB9E1C00F8F321 /* LaunchScreen.storyboard in Resources */,
 				A8E7DF171EBB9E1C00F8F321 /* Assets.xcassets in Resources */,
 				A8E7DF121EBB9E1C00F8F321 /* Main.storyboard in Resources */,
+				A8F628D01F56A71000671360 /* AdformAdvertisingDFPAdapter in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
