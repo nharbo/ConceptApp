@@ -87,43 +87,54 @@ extension Dfp320x320: GADAdSizeDelegate {
     
 }
 
-extension Dfp320x320: GADCustomEventBanner {
+//MARK: - CLASS FOR CUSTOM EVENT
+class AdformCustomEventBanner: NSObject, GADCustomEventBanner {
+    
+    weak var delegate: GADCustomEventBannerDelegate?
     
     func requestAd(_ adSize: GADAdSize, parameter serverParameter: String?, label serverLabel: String?, request: GADCustomEventRequest) {
         print("requestAd, Custom Event received!")
-//        adView.load(request)
+        
+        //Make AdForm ad-request here, and return it back to DFP (??)
     }
     
 }
 
-//extension Dfp320x320: GADCustomEventBannerDelegate {
+
+
+
+
+
+
+
+//extension AdformCustomEventBanner: GADCustomEventBannerDelegate {
 //
 //    func customEventBanner(_ customEvent: GADCustomEventBanner, didFailAd error: Error?) {
 //        print("Error, custom event: \(error?.localizedDescription)")
 //    }
-//    
+//
 //    func customEventBanner(_ customEvent: GADCustomEventBanner, didReceiveAd view: UIView) {
 //        print(view)
 //    }
-//    
+//
 //    func customEventBannerWasClicked(_ customEvent: GADCustomEventBanner) {
-//        
+//
 //    }
-//    
+//
 //    func customEventBannerDidDismissModal(_ customEvent: GADCustomEventBanner) {
-//        
+//
 //    }
-//    
+//
 //    func customEventBannerWillDismissModal(_ customEvent: GADCustomEventBanner) {
-//        
+//
 //    }
-//    
+//
 //    func customEventBannerWillPresentModal(_ customEvent: GADCustomEventBanner) {
-//        
+//
 //    }
-//    
+//
 //    func customEventBannerWillLeaveApplication(_ customEvent: GADCustomEventBanner) {
-//        
+//
 //    }
 //
 //
