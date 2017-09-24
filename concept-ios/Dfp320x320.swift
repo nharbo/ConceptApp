@@ -26,7 +26,7 @@ class Dfp320x320: UIViewController {
 		super.viewDidLoad()
 
         //Ad-unit sættes her
-        adView.adUnitID = "/5706918/concept_app_mob1"
+        adView.adUnitID = "/5706918/concept_app_mob3"
         adView.rootViewController = self
         
         //OBS! Delegates skal sættes inden load-requestet køres.
