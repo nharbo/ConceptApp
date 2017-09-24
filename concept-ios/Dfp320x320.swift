@@ -21,7 +21,14 @@ class Dfp320x320: UIViewController {
     //Referencer til adviewets størrelser - disse skal bruges til at resize view'et afhængig af hvilken størrelse banner der modtages.
     @IBOutlet weak var adViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var adViewWidthConstraint: NSLayoutConstraint!
-
+    
+    @IBAction func reloadButton(_ sender: Any) {
+        
+        adView.load(DFPRequest())
+        
+    }
+    
+    
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
