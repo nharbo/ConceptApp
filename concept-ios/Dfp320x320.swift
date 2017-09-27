@@ -23,9 +23,7 @@ class Dfp320x320: UIViewController {
     @IBOutlet weak var adViewWidthConstraint: NSLayoutConstraint!
     
     @IBAction func reloadButton(_ sender: Any) {
-        
         adView.load(DFPRequest())
-        
     }
     
     
@@ -95,17 +93,59 @@ extension Dfp320x320: GADAdSizeDelegate {
 }
 
 //MARK: - CLASS FOR CUSTOM EVENT
-class AdformCustomEventBanner: NSObject, GADCustomEventBanner {
+//@objc public class SampleCustomEventBannerSwift: NSObject, GADCustomEventBanner {
+//
+//    /// The Sample Ad Network banner.
+//    public var bannerAd: SampleBanner?
+//    public var delegate: GADCustomEventBannerDelegate?
+//
+//    public func requestAd(_ adSize: GADAdSize,
+//                          parameter serverParameter: String?,
+//                          label serverLabel: String?,
+//                          request: GADCustomEventRequest) {
+//
+//        // Create the bannerView with the appropriate size.
+//        bannerAd = SampleBanner(frame: CGRect(x: 0, y: 0, width: adSize.size.width, height: adSize.size.height))
+//        bannerAd?.delegate = self
+//        bannerAd?.adUnit = serverParameter
+//        let adRequest = SampleAdRequest()
+//        adRequest.testMode = request.isTesting
+//        adRequest.keywords = request.userKeywords as? [String]
+//        bannerAd?.fetchAd(adRequest)
+//    }
+//}
+
+//Vigtigt med @objc og public, for at DFP kan genkende klassen!
+@objc public class AdformCustomEventBanner: NSObject, GADCustomEventBanner {
     
-    weak var delegate: GADCustomEventBannerDelegate?
+    public weak var delegate: GADCustomEventBannerDelegate?
     
-    func requestAd(_ adSize: GADAdSize, parameter serverParameter: String?, label serverLabel: String?, request: GADCustomEventRequest) {
+    public func requestAd(_ adSize: GADAdSize, parameter serverParameter: String?, label serverLabel: String?, request: GADCustomEventRequest) {
         print("requestAd, Custom Event received!")
         
         //Make AdForm ad-request here, and return it back to DFP (??)
     }
     
 }
+
+extension NSObject {
+    class func swiftClassFromString(className: String) -> AnyClass! {
+        if var appName: String = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String {
+            let fAppName = appName.replacingOccurrences(of: " ", with: "_", options: NSString.CompareOptions.literal, range: nil)
+            return NSClassFromString("\(fAppName).\(className)")
+        }
+    return nil
+    }
+}
+        
+        
+//        if var appName: String? = Bundle.mainBundle().objectForInfoDictionaryKey("CFBundleName”) as! String? {
+//            let fAppName = appName!.stringByReplacingOccurrencesOfString(" “, withString: “_”, options: NSStringCompareOptions.LiteralSearch, range: nil)
+//                return NSClassFromString("\(fAppName).\(className)”)
+//        }
+//        return nil;
+//    }
+
 
 
 
