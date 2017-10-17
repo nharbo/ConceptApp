@@ -43,6 +43,7 @@
 		A8844EB81ECB737D00BB9ED6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A8844EB71ECB737D00BB9ED6 /* libz.tbd */; };
 		A8844EBA1ECB738700BB9ED6 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8844EB91ECB738700BB9ED6 /* EventKitUI.framework */; };
 		A8844EBC1ECB738F00BB9ED6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8844EBB1ECB738F00BB9ED6 /* WebKit.framework */; };
+		A8BE7C5E1F960BFD00B617F2 /* ParallaxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE7C5D1F960BFD00B617F2 /* ParallaxTableViewCell.swift */; };
 		A8E7DF0D1EBB9E1C00F8F321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7DF0C1EBB9E1C00F8F321 /* AppDelegate.swift */; };
 		A8E7DF0F1EBB9E1C00F8F321 /* LaunchCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7DF0E1EBB9E1C00F8F321 /* LaunchCV.swift */; };
 		A8E7DF121EBB9E1C00F8F321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E7DF101EBB9E1C00F8F321 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		A8E7DF171EBB9E1C00F8F321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E7DF161EBB9E1C00F8F321 /* Assets.xcassets */; };
 		A8E7DF1A1EBB9E1C00F8F321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E7DF181EBB9E1C00F8F321 /* LaunchScreen.storyboard */; };
 		A8E7DF451EBBA12800F8F321 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7DF441EBBA12800F8F321 /* HomeVC.swift */; };
+		A8F555551F850CB20059C023 /* AdformCustomEventBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F555541F850CB10059C023 /* AdformCustomEventBanner.swift */; };
 		A8F628D01F56A71000671360 /* AdformAdvertisingDFPAdapter in Resources */ = {isa = PBXBuildFile; fileRef = A8F628CF1F56A71000671360 /* AdformAdvertisingDFPAdapter */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +96,7 @@
 		A8844EB71ECB737D00BB9ED6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		A8844EB91ECB738700BB9ED6 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 		A8844EBB1ECB738F00BB9ED6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A8BE7C5D1F960BFD00B617F2 /* ParallaxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxTableViewCell.swift; sourceTree = "<group>"; };
 		A8E7DF091EBB9E1C00F8F321 /* concept-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "concept-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E7DF0C1EBB9E1C00F8F321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8E7DF0E1EBB9E1C00F8F321 /* LaunchCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCV.swift; sourceTree = "<group>"; };
@@ -107,6 +110,7 @@
 		A8E7DF2F1EBB9E1C00F8F321 /* concept_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concept_iosUITests.swift; sourceTree = "<group>"; };
 		A8E7DF311EBB9E1C00F8F321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8E7DF441EBBA12800F8F321 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		A8F555541F850CB10059C023 /* AdformCustomEventBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdformCustomEventBanner.swift; sourceTree = "<group>"; };
 		A8F628CF1F56A71000671360 /* AdformAdvertisingDFPAdapter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AdformAdvertisingDFPAdapter; sourceTree = "<group>"; };
 		CA7766805FDE50C98EE30D1F /* Pods_concept_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_concept_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -185,6 +189,7 @@
 				A837B46E1EBBBD14004F6647 /* DfpTableViewCell.swift */,
 				A837B4701EBBBD1F004F6647 /* PolarTableViewCell.swift */,
 				A837B4721EBBBD2D004F6647 /* SitesAndAppsTableViewCell.swift */,
+				A8BE7C5D1F960BFD00B617F2 /* ParallaxTableViewCell.swift */,
 			);
 			name = Menu;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 				A8E7DF3D1EBBA08800F8F321 /* ViewControllers */,
 				A8E7DF411EBBA0DA00F8F321 /* Resources */,
 				A8E7DF401EBBA0B300F8F321 /* Configuration */,
+				A8F555541F850CB10059C023 /* AdformCustomEventBanner.swift */,
 			);
 			path = "concept-ios";
 			sourceTree = "<group>";
@@ -484,6 +490,7 @@
 			files = (
 				A837B4651EBBBBC5004F6647 /* AppNexusVC.swift in Sources */,
 				A837B4671EBBBBD9004F6647 /* DfpVC.swift in Sources */,
+				A8BE7C5E1F960BFD00B617F2 /* ParallaxTableViewCell.swift in Sources */,
 				A837B46B1EBBBBF6004F6647 /* SitesAndAppsVC.swift in Sources */,
 				A837B45F1EBBB4EA004F6647 /* AdFormVC.swift in Sources */,
 				A837B4691EBBBBE7004F6647 /* PolarVC.swift in Sources */,
@@ -498,6 +505,7 @@
 				A8844E8B1ECB693500BB9ED6 /* Dfp320x160.swift in Sources */,
 				A8E7DF0D1EBB9E1C00F8F321 /* AppDelegate.swift in Sources */,
 				A837B4711EBBBD1F004F6647 /* PolarTableViewCell.swift in Sources */,
+				A8F555551F850CB20059C023 /* AdformCustomEventBanner.swift in Sources */,
 				A83F0D341EC0D21C005E1EF4 /* Dfp320x320.swift in Sources */,
 				A8E7DF151EBB9E1C00F8F321 /* concept_ios.xcdatamodeld in Sources */,
 			);

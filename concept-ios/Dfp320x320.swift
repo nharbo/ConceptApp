@@ -115,28 +115,28 @@ extension Dfp320x320: GADAdSizeDelegate {
 //    }
 //}
 
-//Vigtigt med @objc og public, for at DFP kan genkende klassen!
-@objc public class AdformCustomEventBanner: NSObject, GADCustomEventBanner {
-    
-    public weak var delegate: GADCustomEventBannerDelegate?
-    
-    public func requestAd(_ adSize: GADAdSize, parameter serverParameter: String?, label serverLabel: String?, request: GADCustomEventRequest) {
-        print("requestAd, Custom Event received!")
-        
-        //Make AdForm ad-request here, and return it back to DFP (??)
-    }
-    
-}
-
-extension NSObject {
-    class func swiftClassFromString(className: String) -> AnyClass! {
-        if var appName: String = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String {
-            let fAppName = appName.replacingOccurrences(of: " ", with: "_", options: NSString.CompareOptions.literal, range: nil)
-            return NSClassFromString("\(fAppName).\(className)")
-        }
-    return nil
-    }
-}
+////Vigtigt med @objc og public, for at DFP kan genkende klassen!
+//@objc public class AdformCustomEventBanner: NSObject, GADCustomEventBanner {
+//    
+//    public weak var delegate: GADCustomEventBannerDelegate?
+//    
+//    public func requestAd(_ adSize: GADAdSize, parameter serverParameter: String?, label serverLabel: String?, request: GADCustomEventRequest) {
+//        print("requestAd, Custom Event received!")
+//        
+//        //Make AdForm ad-request here, and return it back to DFP (??)
+//    }
+//    
+//}
+//
+//extension NSObject {
+//    class func swiftClassFromString(className: String) -> AnyClass! {
+//        if var appName: String = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String {
+//            let fAppName = appName.replacingOccurrences(of: " ", with: "_", options: NSString.CompareOptions.literal, range: nil)
+//            return NSClassFromString("\(fAppName).\(className)")
+//        }
+//    return nil
+//    }
+//}
         
         
 //        if var appName: String? = Bundle.mainBundle().objectForInfoDictionaryKey("CFBundleName”) as! String? {
