@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '467DCC7F6EC7DD17D95D7CB88CE758AF'
+               BlueprintIdentifier = '7FD71B68F137A8C7E3E8EAED4AF8F523'
                BlueprintName = 'SWRevealViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SWRevealViewController.framework'>

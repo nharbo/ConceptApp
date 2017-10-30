@@ -1,1984 +1,900 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>034014829C1E4434983CF3A690C12017</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_DEBUG=1</string>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>03DDF8A18EDBDA9A6AFBF0B4D7CB99FE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B2C4A76B6AFC1ABC19A242A503DEE13E</string>
-				<string>0CC1F1998668C3B38A2D60F70AC442F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>065E79A3A9967A4F6171EB20E7E1EC69</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A84B6F05BD36A5E099E4339FE9E28506</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>GoogleMobileAdsMediationFacebook</string>
-			<key>path</key>
-			<string>GoogleMobileAdsMediationFacebook</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C33421DA7C956257F764E370A6DB9E6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFAdOverlay.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFAdOverlay.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C34F21A51D2FB5C2B07882162CEEE70</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EBC9FE9EF56CADDD48FD6D47D3AE97C3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0CC1F1998668C3B38A2D60F70AC442F9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>0E13798FFCD0FCECF05CB864152D411B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBNativeAd.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBNativeAd.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>100D9F9027E0211A964208B009A93B86</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFKeyValue.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFKeyValue.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1425AC1B6309C856E1A64D948D0A7B09</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-concept-ios-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>16198A269B3E5E6CCA3F8DA06B36C183</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BE34E04282DC5151F862C3EA772DED18</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>16852B51C87051756BEB6C1982444831</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-concept-ios-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>176B7BE8422536B9E0B1DA032A5C916A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B5E01252C3920D5A244381A3DBD33EEE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Google-Mobile-Ads-SDK</string>
-			<key>path</key>
-			<string>Google-Mobile-Ads-SDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1827532561915C623AC80DBFAD0DA576</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-concept-ios-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1E8F4DB85F017792BE8640F436439811</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>48671855AF12E7D2738C6991BCEB9717</string>
-				<string>E441889997783034A8B9C47C8BBC2299</string>
-				<string>83AFA9B79E768710D63EFE7EBFDD7472</string>
-				<string>79BF78853313DD363FEF65FA75085D3A</string>
-				<string>38EEB820A48FFCF594ACE9F9F9D63E5C</string>
-				<string>9EA26B2B0244ACAC1D775867139233D4</string>
-				<string>0C33421DA7C956257F764E370A6DB9E6</string>
-				<string>982FB4BADF759D0D0CDE1C9A35710103</string>
-				<string>AC4CD608AF027F2141D49F78DE4B1ACE</string>
-				<string>B38C7E07A72BFBFEA6348DDF28877390</string>
-				<string>9D5D04787BC54BC12D9A38534E18515A</string>
-				<string>5061FFF84DEACC48D418AD386E715789</string>
-				<string>58D777425276BBE26252BA69C42950EB</string>
-				<string>3D890FF9C1C5DC76D7EB3FF9DE79D6CA</string>
-				<string>BFF13E440C9D962F1C2B92117D0F532A</string>
-				<string>2241D6E9CC8DDA9270E5E2823B98D11A</string>
-				<string>100D9F9027E0211A964208B009A93B86</string>
-				<string>51B62192C2E3E5F94618A902CC6EF328</string>
-				<string>D80560E2050A63B98EF3D5EF69902D2F</string>
-				<string>B6E670CC07EE97D36C78E843EEC85675</string>
-				<string>E27E88C1CE9B1E39425993CB9C3F08B4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AdformAdvertising</string>
-			<key>path</key>
-			<string>AdformAdvertising</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F6EA0376B269D97043E2A1569705B85</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBAdView.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBAdView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2241D6E9CC8DDA9270E5E2823B98D11A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFHeaderBiddingSDK.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFHeaderBiddingSDK.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2509212188EC3DFBBA6B5CFB4B943A22</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8268ED9F9EB136688A3F255D9ED1597B</string>
-				<string>0C34F21A51D2FB5C2B07882162CEEE70</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2763B57DA5A8227B644D97A05C9398EF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6C3E4BF4C55E3B8ED15A84DB1BD09AD4</string>
-				<string>BA61C2BC97DF1E62CBEC20DD5D5DAFDB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>034014829C1E4434983CF3A690C12017</string>
-				<string>C7E474A03CAE21F1CB6046E7344C59BD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>37A259118AAA33B3FA36F56397C49B61</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D223DA7B6486FF7C7A829BCFFF1DBAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38EEB820A48FFCF594ACE9F9F9D63E5C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFAdInline.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFAdInline.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3D890FF9C1C5DC76D7EB3FF9DE79D6CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFCuePoint.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFCuePoint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>41E358DBCEC990A9E4E7331988A56329</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBNativeAdTableViewAdProvider.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBNativeAdTableViewAdProvider.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>41FBEAC4C44A1EE700C9E482E46FB48F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SWRevealViewController-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>433CD3331B6C3787F473C941B61FC68F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>03DDF8A18EDBDA9A6AFBF0B4D7CB99FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>467DCC7F6EC7DD17D95D7CB88CE758AF</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B4EC388C011EBEF689E435E3010E6619</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D68D88434D2618F89457EADAB5E32F5C</string>
-				<string>2763B57DA5A8227B644D97A05C9398EF</string>
-				<string>2509212188EC3DFBBA6B5CFB4B943A22</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SWRevealViewController</string>
-			<key>productName</key>
-			<string>SWRevealViewController</string>
-			<key>productReference</key>
-			<string>E51B152569FBC00496730C92B7373448</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>46FFDD63A9E5576F951C882B9040DCD9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBAudienceNetwork.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBAudienceNetwork.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>48671855AF12E7D2738C6991BCEB9717</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AdformAdvertising.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AdformAdvertising.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BE9E4C3084F28F4F84E937D09CDC379</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7C6DE7856C340AB47994B1D55F9845F0</string>
-				<string>59A4EBB7A5D6BCAA9A24750B65597CF2</string>
-				<string>53F3B5B55264E5836A39D9E4F56616E5</string>
-				<string>A11738D37559315E364A302C46C069A7</string>
-				<string>1F6EA0376B269D97043E2A1569705B85</string>
-				<string>46FFDD63A9E5576F951C882B9040DCD9</string>
-				<string>5F1C7A95C802AF1755F44836FEA1EC24</string>
-				<string>EA09773921D3AB442C86D31C167EA641</string>
-				<string>53D8BAC4E1663E2BFC20F75D3E2E496E</string>
-				<string>735C5432D42921C678C5088394F73827</string>
-				<string>0E13798FFCD0FCECF05CB864152D411B</string>
-				<string>5C8036EA55921BC02990378A57A02663</string>
-				<string>D9A0F0D7384CD2F0778B8EC464946638</string>
-				<string>FC63D919F537532EF2CC39D862251E95</string>
-				<string>F86F1FE14AB7DE3E3EB38F8645A69107</string>
-				<string>41E358DBCEC990A9E4E7331988A56329</string>
-				<string>FFD5294571FC9FC01A5DF4AC01DEEF9F</string>
-				<string>C50399321B659540E6DF878E7CA347DA</string>
-				<string>6B31C32B243564A02B382753DFECCC7E</string>
-				<string>5815BCA357A0DFB229E83E84A39512C4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FBAudienceNetwork</string>
-			<key>path</key>
-			<string>FBAudienceNetwork</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5061FFF84DEACC48D418AD386E715789</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFConstants.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFConstants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51B62192C2E3E5F94618A902CC6EF328</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFMPMoviePlayerContentPlayback.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFMPMoviePlayerContentPlayback.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53D8BAC4E1663E2BFC20F75D3E2E496E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBMediaView.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBMediaView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53F3B5B55264E5836A39D9E4F56616E5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBAdSettings.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBAdSettings.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54202151C79C4EC8D6ABDCF6359E5E0D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7A8EAFB6B80912B37C4BF7EFD291CB69</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/SWRevealViewController/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/SWRevealViewController/SWRevealViewController.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>SWRevealViewController</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5482C78CA6B2B241FA199D2019DAE5FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-concept-ios.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56082D5CE42361AB938CD12F26E06700</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5482C78CA6B2B241FA199D2019DAE5FE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-concept-ios/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-concept-ios/Pods-concept-ios.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_concept_ios</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5815BCA357A0DFB229E83E84A39512C4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7773DBE422B7A785B14BCBF647CE1AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>58D777425276BBE26252BA69C42950EB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFContentPlayback.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFContentPlayback.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>59A4EBB7A5D6BCAA9A24750B65597CF2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBAdDefines.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBAdDefines.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B45065BA939A7781B24D1A1E9235DD0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EBC9FE9EF56CADDD48FD6D47D3AE97C3</string>
-				<string>7D223DA7B6486FF7C7A829BCFFF1DBAC</string>
-				<string>FCD9787D305E50614B7139984B835A22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SWRevealViewController</string>
-			<key>path</key>
-			<string>SWRevealViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C8036EA55921BC02990378A57A02663</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBNativeAdCollectionViewAdProvider.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBNativeAdCollectionViewAdProvider.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F1C7A95C802AF1755F44836FEA1EC24</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBInstreamAdView.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBInstreamAdView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67784F81E136C25988F150D5F6CAF655</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>FacebookAdapter.framework</string>
-			<key>path</key>
-			<string>FacebookAdapter-4.25.0.0/FacebookAdapter.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6B31C32B243564A02B382753DFECCC7E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBRewardedVideoAd.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBRewardedVideoAd.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C3E4BF4C55E3B8ED15A84DB1BD09AD4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B2C4A76B6AFC1ABC19A242A503DEE13E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>735C5432D42921C678C5088394F73827</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBMediaViewVideoRenderer.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBMediaViewVideoRenderer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79BF78853313DD363FEF65FA75085D3A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFAdHesion.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFAdHesion.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A8EAFB6B80912B37C4BF7EFD291CB69</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SWRevealViewController.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C6DE7856C340AB47994B1D55F9845F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBAdChoicesView.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBAdChoicesView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D223DA7B6486FF7C7A829BCFFF1DBAC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SWRevealViewController.m</string>
-			<key>path</key>
-			<string>SWRevealViewController/SWRevealViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>433CD3331B6C3787F473C941B61FC68F</string>
-				<string>902932AED5CD623E7BECE6AF949ADC35</string>
-				<string>EDF97FC93257F533F79D555E0239DAB7</string>
-				<string>16198A269B3E5E6CCA3F8DA06B36C183</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>824C560561BA78A2735F5E2D2321BF59</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9E5A220B3C586B0DA7C12712DFDF9BD6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8268ED9F9EB136688A3F255D9ED1597B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA6CF6DFDA97193A834ACDC94B948003</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>83AFA9B79E768710D63EFE7EBFDD7472</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AdformSDK.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AdformSDK.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>842FFA12AB4D0E383DF3F2D882385307</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F2E6736346C286BA8021B24E5AA1987E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>85DC943AB4724595CEA1B8BE6980950F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SWRevealViewController</string>
-			<key>target</key>
-			<string>467DCC7F6EC7DD17D95D7CB88CE758AF</string>
-			<key>targetProxy</key>
-			<string>B9AD332E26D88BBE2D797AC4B0507987</string>
-		</dict>
-		<key>902932AED5CD623E7BECE6AF949ADC35</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1E8F4DB85F017792BE8640F436439811</string>
-				<string>4BE9E4C3084F28F4F84E937D09CDC379</string>
-				<string>176B7BE8422536B9E0B1DA032A5C916A</string>
-				<string>065E79A3A9967A4F6171EB20E7E1EC69</string>
-				<string>5B45065BA939A7781B24D1A1E9235DD0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>text.script.ruby</string>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>95FC77B551F00D2986109E830218BBC9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_concept_ios.framework</string>
-			<key>path</key>
-			<string>Pods-concept-ios.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>982FB4BADF759D0D0CDE1C9A35710103</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFAVPlayerViewControllerPlayback.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFAVPlayerViewControllerPlayback.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A5AD589DD849DCC876C66D2D60DD88C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>41FBEAC4C44A1EE700C9E482E46FB48F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D5D04787BC54BC12D9A38534E18515A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFBidResponse.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFBidResponse.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DBABC47EAF12F758D03C63F1BA79787</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>DBF702AA66D45FAAFAAF9FB7654F035D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BA161915D6F8102E23057B0AB1416A25</string>
-				<string>824C560561BA78A2735F5E2D2321BF59</string>
-				<string>842FFA12AB4D0E383DF3F2D882385307</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>85DC943AB4724595CEA1B8BE6980950F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-concept-ios</string>
-			<key>productName</key>
-			<string>Pods-concept-ios</string>
-			<key>productReference</key>
-			<string>95FC77B551F00D2986109E830218BBC9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>9E5A220B3C586B0DA7C12712DFDF9BD6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0CC1F1998668C3B38A2D60F70AC442F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9EA26B2B0244ACAC1D775867139233D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFAdInterstitial.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFAdInterstitial.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A11738D37559315E364A302C46C069A7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBAdSize.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBAdSize.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A6F1CAD1BA985A554D43908739CBAE48</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7A8EAFB6B80912B37C4BF7EFD291CB69</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/SWRevealViewController/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/SWRevealViewController/SWRevealViewController.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SWRevealViewController</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A84B6F05BD36A5E099E4339FE9E28506</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>67784F81E136C25988F150D5F6CAF655</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC4CD608AF027F2141D49F78DE4B1ACE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFBidLoader.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFBidLoader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B2C4A76B6AFC1ABC19A242A503DEE13E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>B353D9B87CF8B477AA555649B5D75FE4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-concept-ios.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B38C7E07A72BFBFEA6348DDF28877390</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFBidRequest.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFBidRequest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4BED6CAA3B73CCEE69A0478A36B383C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F77A1DD05A06091BD3FA33BA15D9027C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-concept-ios/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-concept-ios/Pods-concept-ios.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_concept_ios</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B4EC388C011EBEF689E435E3010E6619</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A6F1CAD1BA985A554D43908739CBAE48</string>
-				<string>54202151C79C4EC8D6ABDCF6359E5E0D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B5E01252C3920D5A244381A3DBD33EEE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CCC2183895DACE7EA527A9AD15E29FC8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B6E670CC07EE97D36C78E843EEC85675</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFVideoSettings.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFVideoSettings.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9AD332E26D88BBE2D797AC4B0507987</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>467DCC7F6EC7DD17D95D7CB88CE758AF</string>
-			<key>remoteInfo</key>
-			<string>SWRevealViewController</string>
-		</dict>
-		<key>BA161915D6F8102E23057B0AB1416A25</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D3FD952EA01F7DC0F04C4B9BE1FD1939</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BA61C2BC97DF1E62CBEC20DD5D5DAFDB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0CC1F1998668C3B38A2D60F70AC442F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BE34E04282DC5151F862C3EA772DED18</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9F52FC828753AAEFC066FD98FCB619F</string>
-				<string>B353D9B87CF8B477AA555649B5D75FE4</string>
-				<string>1827532561915C623AC80DBFAD0DA576</string>
-				<string>1425AC1B6309C856E1A64D948D0A7B09</string>
-				<string>16852B51C87051756BEB6C1982444831</string>
-				<string>C251F3B8E198F9A6CAA69D9975C8B454</string>
-				<string>F449B2DF4517329AF189209DA9713046</string>
-				<string>FA66B3834C5B737076842C6921C9CFD3</string>
-				<string>F77A1DD05A06091BD3FA33BA15D9027C</string>
-				<string>5482C78CA6B2B241FA199D2019DAE5FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-concept-ios</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-concept-ios</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BFF13E440C9D962F1C2B92117D0F532A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFHBConstants.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFHBConstants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C251F3B8E198F9A6CAA69D9975C8B454</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-concept-ios-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C50399321B659540E6DF878E7CA347DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBNativeAdView.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBNativeAdView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7E474A03CAE21F1CB6046E7344C59BD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_RELEASE=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>CCC2183895DACE7EA527A9AD15E29FC8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>GoogleMobileAds.framework</string>
-			<key>path</key>
-			<string>Frameworks/frameworks/GoogleMobileAds.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3FD952EA01F7DC0F04C4B9BE1FD1939</key>
-		<dict>
-			<key>fileRef</key>
-			<string>16852B51C87051756BEB6C1982444831</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>EDF97FC93257F533F79D555E0239DAB7</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>9DBABC47EAF12F758D03C63F1BA79787</string>
-				<string>467DCC7F6EC7DD17D95D7CB88CE758AF</string>
-			</array>
-		</dict>
-		<key>D4A70586F890CE4810A245833F55D276</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SWRevealViewController-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D55ABF3DF892185BF5D8382EAB462888</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D68D88434D2618F89457EADAB5E32F5C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9A5AD589DD849DCC876C66D2D60DD88C</string>
-				<string>37A259118AAA33B3FA36F56397C49B61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D80560E2050A63B98EF3D5EF69902D2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AFVideoPlayerController.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AFVideoPlayerController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9A0F0D7384CD2F0778B8EC464946638</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBNativeAdCollectionViewCellProvider.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBNativeAdCollectionViewCellProvider.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9F52FC828753AAEFC066FD98FCB619F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBF702AA66D45FAAFAAF9FB7654F035D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B4BED6CAA3B73CCEE69A0478A36B383C</string>
-				<string>56082D5CE42361AB938CD12F26E06700</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E27E88C1CE9B1E39425993CB9C3F08B4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F091387BA0073E1B071C433D5B44F237</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E441889997783034A8B9C47C8BBC2299</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AdformHeaderBidding.h</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework/Versions/A/Headers/AdformHeaderBidding.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E51B152569FBC00496730C92B7373448</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SWRevealViewController.framework</string>
-			<key>path</key>
-			<string>SWRevealViewController.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E7773DBE422B7A785B14BCBF647CE1AB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EA09773921D3AB442C86D31C167EA641</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBInterstitialAd.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBInterstitialAd.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBC9FE9EF56CADDD48FD6D47D3AE97C3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SWRevealViewController.h</string>
-			<key>path</key>
-			<string>SWRevealViewController/SWRevealViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDF97FC93257F533F79D555E0239DAB7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>95FC77B551F00D2986109E830218BBC9</string>
-				<string>E51B152569FBC00496730C92B7373448</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F091387BA0073E1B071C433D5B44F237</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>path</key>
-			<string>AdformAdvertising.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F191BAC10920CAFBC3C5C390D7C7DEE9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SWRevealViewController.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F2E6736346C286BA8021B24E5AA1987E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA66B3834C5B737076842C6921C9CFD3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F449B2DF4517329AF189209DA9713046</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-concept-ios-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F77A1DD05A06091BD3FA33BA15D9027C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-concept-ios.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F86F1FE14AB7DE3E3EB38F8645A69107</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBNativeAdsManager.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBNativeAdsManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA66B3834C5B737076842C6921C9CFD3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-concept-ios-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA6CF6DFDA97193A834ACDC94B948003</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SWRevealViewController-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC63D919F537532EF2CC39D862251E95</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBNativeAdScrollView.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBNativeAdScrollView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FCD9787D305E50614B7139984B835A22</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D55ABF3DF892185BF5D8382EAB462888</string>
-				<string>F191BAC10920CAFBC3C5C390D7C7DEE9</string>
-				<string>7A8EAFB6B80912B37C4BF7EFD291CB69</string>
-				<string>41FBEAC4C44A1EE700C9E482E46FB48F</string>
-				<string>D4A70586F890CE4810A245833F55D276</string>
-				<string>FA6CF6DFDA97193A834ACDC94B948003</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/SWRevealViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FFD5294571FC9FC01A5DF4AC01DEEF9F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBNativeAdTableViewCellProvider.h</string>
-			<key>path</key>
-			<string>FBAudienceNetwork.framework/Headers/FBNativeAdTableViewCellProvider.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094ED1211626E44658BCE20A562008C3 /* NSObject+FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 070E2F65D3E57DFCB1E183A76950C31F /* NSObject+FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		153F52868440EF561C761D3A929E8413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		16A56F7A6E2AFE504DEC2C768660B409 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7AB9BD5E1BFDB7B7BC0CE49369A776 /* KVOController-dummy.m */; };
+		16BBF00177ED5158D08ADDE76A91C2EF /* Pods-concept-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16852B51C87051756BEB6C1982444831 /* Pods-concept-ios-dummy.m */; };
+		1A61C910DACFCF8EB29281ED3DA0B81A /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = E58735A9133ECDAEDCCE6667F7D3B513 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A09758DF98D294414E7F303F6003DB6 /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF160F0E58A2F2C813F3EEC6A705C1C /* SWRevealViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC4BE759CA58D6B4F423BD57E14E2A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */; };
+		46C6F8B1BDFB11C6EFDE6B5B9E172F72 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F90ECB1206475D5BD1D0CB2D055EBF /* SWRevealViewController.m */; };
+		5A3FF832C38EF9E6B98C3EA072618CC8 /* Pods-concept-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA66B3834C5B737076842C6921C9CFD3 /* Pods-concept-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E3E20ED69923AF65ED92CE43DC97BFB /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC977846F5DC92481D5A4DBDB686D7E4 /* NSObject+FBKVOController.m */; };
+		5EF4005FEC65BC997748AB46617ADD3C /* KVOController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF25EC1945DCCB08493ABE0C31AEA60B /* KVOController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67C0CF8CF67E87B932B2F0041312CE86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		75DDA6C4B1C2D744D9CD65A5ED42C54F /* KVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = F89DD44D301338EB2DE0E78505BCFE32 /* KVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2B8391F7B38D8D1129211D853C5C9BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		D0A86E04CC53645701F5E9764F5ECC9D /* SWRevealViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 981EB48F5CFE0A60858A21C999E0829F /* SWRevealViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7A846EC48CD3B2E7BBE318B7C4CD754 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89912C01889ECE3BF758282E7C0D9DE6 /* FBKVOController.m */; };
+		FD86A930993C5CB207904BA03E2A4F2B /* SWRevealViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7352004CB740BD279C846321C2F221DD /* SWRevealViewController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09D0ACB502D74CD3A660625D58BC2BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BB2FCBCF83B5DDB315512A21BC40B8;
+			remoteInfo = KVOController;
+		};
+		F07BDCB051B724D725F41B9F689FAB18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FD71B68F137A8C7E3E8EAED4AF8F523;
+			remoteInfo = SWRevealViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070E2F65D3E57DFCB1E183A76950C31F /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBKVOController.h"; path = "FBKVOController/NSObject+FBKVOController.h"; sourceTree = "<group>"; };
+		0B3E251524570F201A045FBC49D86450 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1425AC1B6309C856E1A64D948D0A7B09 /* Pods-concept-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-concept-ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		16852B51C87051756BEB6C1982444831 /* Pods-concept-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-concept-ios-dummy.m"; sourceTree = "<group>"; };
+		1827532561915C623AC80DBFAD0DA576 /* Pods-concept-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-concept-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22BEB9B5904A2C5CE9CCEE5673944520 /* AFVideoSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFVideoSettings.h; path = AdformAdvertising.framework/Versions/A/Headers/AFVideoSettings.h; sourceTree = "<group>"; };
+		262318471224AB1A5A2B8EF124F71136 /* AFAdHesion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAdHesion.h; path = AdformAdvertising.framework/Versions/A/Headers/AFAdHesion.h; sourceTree = "<group>"; };
+		2826780DF718C4BBD858A825CFA255BF /* AFMPMoviePlayerContentPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFMPMoviePlayerContentPlayback.h; path = AdformAdvertising.framework/Versions/A/Headers/AFMPMoviePlayerContentPlayback.h; sourceTree = "<group>"; };
+		2E284EFF0B80E6B43068D07274200559 /* FBAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdView.h; path = FBAudienceNetwork.framework/Headers/FBAdView.h; sourceTree = "<group>"; };
+		383A812D5C29F21F3AB42403868CEF43 /* FBInstreamAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBInstreamAdView.h; path = FBAudienceNetwork.framework/Headers/FBInstreamAdView.h; sourceTree = "<group>"; };
+		3D164A01EA376A6CABDAC31372D8A335 /* AFVideoPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFVideoPlayerController.h; path = AdformAdvertising.framework/Versions/A/Headers/AFVideoPlayerController.h; sourceTree = "<group>"; };
+		43DECC63EC0FD25EA6D891318709ACDF /* SWRevealViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-prefix.pch"; sourceTree = "<group>"; };
+		47265BBE9FB305D361FDA8BE619DF3CF /* AFAdInline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAdInline.h; path = AdformAdvertising.framework/Versions/A/Headers/AFAdInline.h; sourceTree = "<group>"; };
+		48B4962C1E9B27F8CE0C4E4B40C28EDA /* FBMediaViewVideoRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMediaViewVideoRenderer.h; path = FBAudienceNetwork.framework/Headers/FBMediaViewVideoRenderer.h; sourceTree = "<group>"; };
+		51F90ECB1206475D5BD1D0CB2D055EBF /* SWRevealViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		5482C78CA6B2B241FA199D2019DAE5FE /* Pods-concept-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-concept-ios.release.xcconfig"; sourceTree = "<group>"; };
+		5A678C9A48229E9DA9A353379685471B /* FBNativeAdTableViewCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewCellProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdTableViewCellProvider.h; sourceTree = "<group>"; };
+		5C578AFED54819AF5F48F82F22322584 /* AFAdInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAdInterstitial.h; path = AdformAdvertising.framework/Versions/A/Headers/AFAdInterstitial.h; sourceTree = "<group>"; };
+		6168E8CEEB18476CA62A4A81798F86AE /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		667357A6B8BE869F37B6BC90147106E4 /* AFKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFKeyValue.h; path = AdformAdvertising.framework/Versions/A/Headers/AFKeyValue.h; sourceTree = "<group>"; };
+		68296349CD7724311046246C037F608A /* AdformSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdformSDK.h; path = AdformAdvertising.framework/Versions/A/Headers/AdformSDK.h; sourceTree = "<group>"; };
+		6BE29D8C4B03CC4B36AD878DE702E19B /* AdformAdvertising.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdformAdvertising.framework; sourceTree = "<group>"; };
+		6C93FBB2FC810C6E1BDD3D59805FCBB7 /* AFHBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHBConstants.h; path = AdformAdvertising.framework/Versions/A/Headers/AFHBConstants.h; sourceTree = "<group>"; };
+		6E7AB9BD5E1BFDB7B7BC0CE49369A776 /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
+		705A64E552BEE7C773CD49905B1CA2C4 /* KVOController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.xcconfig; sourceTree = "<group>"; };
+		7352004CB740BD279C846321C2F221DD /* SWRevealViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWRevealViewController-dummy.m"; sourceTree = "<group>"; };
+		76D2C9DCAB990F1D546F8FE32C3D4F2D /* FBNativeAdTableViewAdProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewAdProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdTableViewAdProvider.h; sourceTree = "<group>"; };
+		820C4212584C340D8610F8162850FCE3 /* FBNativeAdScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdScrollView.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdScrollView.h; sourceTree = "<group>"; };
+		851B2F6CE818EA05566B2D80738224E8 /* SWRevealViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWRevealViewController.xcconfig; sourceTree = "<group>"; };
+		8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		86DE17C35BCC3B7DF5D689F60C86018E /* AFAVPlayerViewControllerPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAVPlayerViewControllerPlayback.h; path = AdformAdvertising.framework/Versions/A/Headers/AFAVPlayerViewControllerPlayback.h; sourceTree = "<group>"; };
+		89912C01889ECE3BF758282E7C0D9DE6 /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
+		89E4FDF2A709F43F56399FF96DE9BD19 /* AdformHeaderBidding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdformHeaderBidding.h; path = AdformAdvertising.framework/Versions/A/Headers/AdformHeaderBidding.h; sourceTree = "<group>"; };
+		8E4C46D2943E1BB131393CB36FE2DA55 /* FBRewardedVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRewardedVideoAd.h; path = FBAudienceNetwork.framework/Headers/FBRewardedVideoAd.h; sourceTree = "<group>"; };
+		8F147AA553BF6F96691C917A92C076CF /* FBAdChoicesView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdChoicesView.h; path = FBAudienceNetwork.framework/Headers/FBAdChoicesView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		981EB48F5CFE0A60858A21C999E0829F /* SWRevealViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWRevealViewController-umbrella.h"; sourceTree = "<group>"; };
+		98A96CEF5F8FE10ABD5490F1F937B6FE /* AFBidResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFBidResponse.h; path = AdformAdvertising.framework/Versions/A/Headers/AFBidResponse.h; sourceTree = "<group>"; };
+		98EF1245BE1BA88CBAD06211C9947A2E /* AFBidLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFBidLoader.h; path = AdformAdvertising.framework/Versions/A/Headers/AFBidLoader.h; sourceTree = "<group>"; };
+		9C0E7D597B60FF08021C2E16C0111ECF /* FBAudienceNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAudienceNetwork.h; path = FBAudienceNetwork.framework/Headers/FBAudienceNetwork.h; sourceTree = "<group>"; };
+		9F38B5CC6223EE689B4232F0ECB278AF /* FBNativeAdsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdsManager.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdsManager.h; sourceTree = "<group>"; };
+		A2A6D3127ACCFF18BAE96B991CC9B1BC /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVOController.framework; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9587BE3804BAE0BA32B71B27BC657C /* FBNativeAdCollectionViewAdProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdCollectionViewAdProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdCollectionViewAdProvider.h; sourceTree = "<group>"; };
+		AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ACF6A89C37EB6046B4A31EAAEADAA1CD /* Pods_concept_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_concept_ios.framework; path = "Pods-concept-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE65660CFAEEE9E67B66B6A63E46622D /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
+		AEAF4641D77ADF0C99127FEB690F4281 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		B08F2CCB6E309880B98CEA44EFFEFC96 /* AFHeaderBiddingSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHeaderBiddingSDK.h; path = AdformAdvertising.framework/Versions/A/Headers/AFHeaderBiddingSDK.h; sourceTree = "<group>"; };
+		B353D9B87CF8B477AA555649B5D75FE4 /* Pods-concept-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-concept-ios.modulemap"; sourceTree = "<group>"; };
+		B3B3A90391C224C57F9A5B390BA44681 /* AFBidRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFBidRequest.h; path = AdformAdvertising.framework/Versions/A/Headers/AFBidRequest.h; sourceTree = "<group>"; };
+		B576E59CF4C2ED210A865F66F42618E3 /* AFCuePoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCuePoint.h; path = AdformAdvertising.framework/Versions/A/Headers/AFCuePoint.h; sourceTree = "<group>"; };
+		B849197946A720E44BDCB6E258A03859 /* AdformAdvertising.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdformAdvertising.h; path = AdformAdvertising.framework/Versions/A/Headers/AdformAdvertising.h; sourceTree = "<group>"; };
+		B8D889B25068196A3676D3E966AA905D /* FBNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAd.h; path = FBAudienceNetwork.framework/Headers/FBNativeAd.h; sourceTree = "<group>"; };
+		BD839392C9A91A93DA7D7640343985CD /* AFConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFConstants.h; path = AdformAdvertising.framework/Versions/A/Headers/AFConstants.h; sourceTree = "<group>"; };
+		C251F3B8E198F9A6CAA69D9975C8B454 /* Pods-concept-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-concept-ios-frameworks.sh"; sourceTree = "<group>"; };
+		C3FA8225C586B76939FD2610936FC0FD /* FBMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMediaView.h; path = FBAudienceNetwork.framework/Headers/FBMediaView.h; sourceTree = "<group>"; };
+		C3FCEAB400A4455907B7500D4BC78B48 /* FBInstreamAdRendererView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBInstreamAdRendererView.h; path = FBAudienceNetwork.framework/Headers/FBInstreamAdRendererView.h; sourceTree = "<group>"; };
+		C71DAC28166C5EB10569F57DD2EE59E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7449A533274CA8F5C9A670B799CF8F /* FBAdSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSettings.h; path = FBAudienceNetwork.framework/Headers/FBAdSettings.h; sourceTree = "<group>"; };
+		CD48FAB393DB5D58CE2CAF429461A4D7 /* FacebookAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookAdapter.framework; path = "FacebookAdapter-4.26.0.0/FacebookAdapter.framework"; sourceTree = "<group>"; };
+		D9F52FC828753AAEFC066FD98FCB619F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA754DEA5BB121E80EBC4F157D39DBAC /* KVOController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KVOController.modulemap; sourceTree = "<group>"; };
+		DAF8B6CA72A9BA536F0B1CC1E4505915 /* FBNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdView.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdView.h; sourceTree = "<group>"; };
+		DB5DF4EF7DE0F4F19C31D5BE20A500E2 /* FBAdDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdDefines.h; path = FBAudienceNetwork.framework/Headers/FBAdDefines.h; sourceTree = "<group>"; };
+		E0A7F427F0E465471DEFA0067ABD02FA /* FBInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBInterstitialAd.h; path = FBAudienceNetwork.framework/Headers/FBInterstitialAd.h; sourceTree = "<group>"; };
+		E58735A9133ECDAEDCCE6667F7D3B513 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
+		E755C4785F62B9B2A9DB3FEE7A438486 /* FBNativeAdCollectionViewCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdCollectionViewCellProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdCollectionViewCellProvider.h; sourceTree = "<group>"; };
+		EC977846F5DC92481D5A4DBDB686D7E4 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBKVOController.m"; path = "FBKVOController/NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		EF6875D3B87C63237BC9F18F4822C1D1 /* SWRevealViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWRevealViewController.modulemap; sourceTree = "<group>"; };
+		F0043EB84E021E070EEAEE0C0EAF56A1 /* AFAdOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAdOverlay.h; path = AdformAdvertising.framework/Versions/A/Headers/AFAdOverlay.h; sourceTree = "<group>"; };
+		F1A124E82C55597FE05096E9BF819F26 /* AFContentPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFContentPlayback.h; path = AdformAdvertising.framework/Versions/A/Headers/AFContentPlayback.h; sourceTree = "<group>"; };
+		F449B2DF4517329AF189209DA9713046 /* Pods-concept-ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-concept-ios-resources.sh"; sourceTree = "<group>"; };
+		F77A1DD05A06091BD3FA33BA15D9027C /* Pods-concept-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-concept-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		F7B52E763532AC0F64277B741DE59783 /* FBAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSize.h; path = FBAudienceNetwork.framework/Headers/FBAdSize.h; sourceTree = "<group>"; };
+		F89DD44D301338EB2DE0E78505BCFE32 /* KVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVOController.h; path = FBKVOController/KVOController.h; sourceTree = "<group>"; };
+		FA66B3834C5B737076842C6921C9CFD3 /* Pods-concept-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-concept-ios-umbrella.h"; sourceTree = "<group>"; };
+		FB8E27A5F27DF65871C994FE35F214A9 /* SWRevealViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWRevealViewController.framework; path = SWRevealViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF160F0E58A2F2C813F3EEC6A705C1C /* SWRevealViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		FF25EC1945DCCB08493ABE0C31AEA60B /* KVOController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BB9E3449415BB0D24598553BDC6F3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C0CF8CF67E87B932B2F0041312CE86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC0F2B042C498212CC27D9F3F40E482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153F52868440EF561C761D3A929E8413 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE89CD9F668C561DB50DFA773A5EB39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC4BE759CA58D6B4F423BD57E14E2A6 /* CoreGraphics.framework in Frameworks */,
+				A2B8391F7B38D8D1129211D853C5C9BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16198A269B3E5E6CCA3F8DA06B36C183 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE34E04282DC5151F862C3EA772DED18 /* Pods-concept-ios */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C5CB3D9CA71648B37B457D4E26A116E /* KVOController */ = {
+			isa = PBXGroup;
+			children = (
+				E58735A9133ECDAEDCCE6667F7D3B513 /* FBKVOController.h */,
+				89912C01889ECE3BF758282E7C0D9DE6 /* FBKVOController.m */,
+				F89DD44D301338EB2DE0E78505BCFE32 /* KVOController.h */,
+				070E2F65D3E57DFCB1E183A76950C31F /* NSObject+FBKVOController.h */,
+				EC977846F5DC92481D5A4DBDB686D7E4 /* NSObject+FBKVOController.m */,
+				27D27362A4A18B7EAEF078A56DBED377 /* Support Files */,
+			);
+			name = KVOController;
+			path = KVOController;
+			sourceTree = "<group>";
+		};
+		2095817E8DAE098C3DDF7340C253ACDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B4430A86B049A8CAC6E8DE7D146E4F6 /* AdformAdvertising */,
+				B2FDB7E96423609862278DC1218CC5B0 /* FBAudienceNetwork */,
+				7A0CAE5BC5A45B60945D17A240576837 /* Google-Mobile-Ads-SDK */,
+				B5240B235A131679A0F21981AA9A5058 /* GoogleMobileAdsMediationFacebook */,
+				1C5CB3D9CA71648B37B457D4E26A116E /* KVOController */,
+				24A95BD22F19CFAB78D84D43540E63B9 /* SWRevealViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24A95BD22F19CFAB78D84D43540E63B9 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEF160F0E58A2F2C813F3EEC6A705C1C /* SWRevealViewController.h */,
+				51F90ECB1206475D5BD1D0CB2D055EBF /* SWRevealViewController.m */,
+				CCA70F3C2982AB7ACFE6FFC698A4C2F4 /* Support Files */,
+			);
+			name = SWRevealViewController;
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		278884DD12BCE947F3DB0F0AA80EE3F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF4641D77ADF0C99127FEB690F4281 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27D27362A4A18B7EAEF078A56DBED377 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E251524570F201A045FBC49D86450 /* Info.plist */,
+				DA754DEA5BB121E80EBC4F157D39DBAC /* KVOController.modulemap */,
+				705A64E552BEE7C773CD49905B1CA2C4 /* KVOController.xcconfig */,
+				6E7AB9BD5E1BFDB7B7BC0CE49369A776 /* KVOController-dummy.m */,
+				AE65660CFAEEE9E67B66B6A63E46622D /* KVOController-prefix.pch */,
+				FF25EC1945DCCB08493ABE0C31AEA60B /* KVOController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KVOController";
+			sourceTree = "<group>";
+		};
+		2B4430A86B049A8CAC6E8DE7D146E4F6 /* AdformAdvertising */ = {
+			isa = PBXGroup;
+			children = (
+				B849197946A720E44BDCB6E258A03859 /* AdformAdvertising.h */,
+				89E4FDF2A709F43F56399FF96DE9BD19 /* AdformHeaderBidding.h */,
+				68296349CD7724311046246C037F608A /* AdformSDK.h */,
+				262318471224AB1A5A2B8EF124F71136 /* AFAdHesion.h */,
+				47265BBE9FB305D361FDA8BE619DF3CF /* AFAdInline.h */,
+				5C578AFED54819AF5F48F82F22322584 /* AFAdInterstitial.h */,
+				F0043EB84E021E070EEAEE0C0EAF56A1 /* AFAdOverlay.h */,
+				86DE17C35BCC3B7DF5D689F60C86018E /* AFAVPlayerViewControllerPlayback.h */,
+				98EF1245BE1BA88CBAD06211C9947A2E /* AFBidLoader.h */,
+				B3B3A90391C224C57F9A5B390BA44681 /* AFBidRequest.h */,
+				98A96CEF5F8FE10ABD5490F1F937B6FE /* AFBidResponse.h */,
+				BD839392C9A91A93DA7D7640343985CD /* AFConstants.h */,
+				F1A124E82C55597FE05096E9BF819F26 /* AFContentPlayback.h */,
+				B576E59CF4C2ED210A865F66F42618E3 /* AFCuePoint.h */,
+				6C93FBB2FC810C6E1BDD3D59805FCBB7 /* AFHBConstants.h */,
+				B08F2CCB6E309880B98CEA44EFFEFC96 /* AFHeaderBiddingSDK.h */,
+				667357A6B8BE869F37B6BC90147106E4 /* AFKeyValue.h */,
+				2826780DF718C4BBD858A825CFA255BF /* AFMPMoviePlayerContentPlayback.h */,
+				3D164A01EA376A6CABDAC31372D8A335 /* AFVideoPlayerController.h */,
+				22BEB9B5904A2C5CE9CCEE5673944520 /* AFVideoSettings.h */,
+				5B88C78223341710D5FDEF8DDCC0A627 /* Frameworks */,
+			);
+			name = AdformAdvertising;
+			path = AdformAdvertising;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93AA53D048424A67CC426E3C9422A44 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B88C78223341710D5FDEF8DDCC0A627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BE29D8C4B03CC4B36AD878DE702E19B /* AdformAdvertising.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71E77301B4D642E7FD86B9ACA1CB8FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6168E8CEEB18476CA62A4A81798F86AE /* FBAudienceNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77C803E45DBE6F1CC126EFE2623E5080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6D3127ACCFF18BAE96B991CC9B1BC /* KVOController.framework */,
+				ACF6A89C37EB6046B4A31EAAEADAA1CD /* Pods_concept_ios.framework */,
+				FB8E27A5F27DF65871C994FE35F214A9 /* SWRevealViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A0CAE5BC5A45B60945D17A240576837 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				278884DD12BCE947F3DB0F0AA80EE3F3 /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				2095817E8DAE098C3DDF7340C253ACDC /* Pods */,
+				77C803E45DBE6F1CC126EFE2623E5080 /* Products */,
+				16198A269B3E5E6CCA3F8DA06B36C183 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		906256706321B595263E7D26D76506CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD48FAB393DB5D58CE2CAF429461A4D7 /* FacebookAdapter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2FDB7E96423609862278DC1218CC5B0 /* FBAudienceNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				8F147AA553BF6F96691C917A92C076CF /* FBAdChoicesView.h */,
+				DB5DF4EF7DE0F4F19C31D5BE20A500E2 /* FBAdDefines.h */,
+				CA7449A533274CA8F5C9A670B799CF8F /* FBAdSettings.h */,
+				F7B52E763532AC0F64277B741DE59783 /* FBAdSize.h */,
+				2E284EFF0B80E6B43068D07274200559 /* FBAdView.h */,
+				9C0E7D597B60FF08021C2E16C0111ECF /* FBAudienceNetwork.h */,
+				C3FCEAB400A4455907B7500D4BC78B48 /* FBInstreamAdRendererView.h */,
+				383A812D5C29F21F3AB42403868CEF43 /* FBInstreamAdView.h */,
+				E0A7F427F0E465471DEFA0067ABD02FA /* FBInterstitialAd.h */,
+				C3FA8225C586B76939FD2610936FC0FD /* FBMediaView.h */,
+				48B4962C1E9B27F8CE0C4E4B40C28EDA /* FBMediaViewVideoRenderer.h */,
+				B8D889B25068196A3676D3E966AA905D /* FBNativeAd.h */,
+				AB9587BE3804BAE0BA32B71B27BC657C /* FBNativeAdCollectionViewAdProvider.h */,
+				E755C4785F62B9B2A9DB3FEE7A438486 /* FBNativeAdCollectionViewCellProvider.h */,
+				820C4212584C340D8610F8162850FCE3 /* FBNativeAdScrollView.h */,
+				9F38B5CC6223EE689B4232F0ECB278AF /* FBNativeAdsManager.h */,
+				76D2C9DCAB990F1D546F8FE32C3D4F2D /* FBNativeAdTableViewAdProvider.h */,
+				5A678C9A48229E9DA9A353379685471B /* FBNativeAdTableViewCellProvider.h */,
+				DAF8B6CA72A9BA536F0B1CC1E4505915 /* FBNativeAdView.h */,
+				8E4C46D2943E1BB131393CB36FE2DA55 /* FBRewardedVideoAd.h */,
+				71E77301B4D642E7FD86B9ACA1CB8FAD /* Frameworks */,
+			);
+			name = FBAudienceNetwork;
+			path = FBAudienceNetwork;
+			sourceTree = "<group>";
+		};
+		B5240B235A131679A0F21981AA9A5058 /* GoogleMobileAdsMediationFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				906256706321B595263E7D26D76506CB /* Frameworks */,
+			);
+			name = GoogleMobileAdsMediationFacebook;
+			path = GoogleMobileAdsMediationFacebook;
+			sourceTree = "<group>";
+		};
+		BE34E04282DC5151F862C3EA772DED18 /* Pods-concept-ios */ = {
+			isa = PBXGroup;
+			children = (
+				D9F52FC828753AAEFC066FD98FCB619F /* Info.plist */,
+				B353D9B87CF8B477AA555649B5D75FE4 /* Pods-concept-ios.modulemap */,
+				1827532561915C623AC80DBFAD0DA576 /* Pods-concept-ios-acknowledgements.markdown */,
+				1425AC1B6309C856E1A64D948D0A7B09 /* Pods-concept-ios-acknowledgements.plist */,
+				16852B51C87051756BEB6C1982444831 /* Pods-concept-ios-dummy.m */,
+				C251F3B8E198F9A6CAA69D9975C8B454 /* Pods-concept-ios-frameworks.sh */,
+				F449B2DF4517329AF189209DA9713046 /* Pods-concept-ios-resources.sh */,
+				FA66B3834C5B737076842C6921C9CFD3 /* Pods-concept-ios-umbrella.h */,
+				F77A1DD05A06091BD3FA33BA15D9027C /* Pods-concept-ios.debug.xcconfig */,
+				5482C78CA6B2B241FA199D2019DAE5FE /* Pods-concept-ios.release.xcconfig */,
+			);
+			name = "Pods-concept-ios";
+			path = "Target Support Files/Pods-concept-ios";
+			sourceTree = "<group>";
+		};
+		C93AA53D048424A67CC426E3C9422A44 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */,
+				AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCA70F3C2982AB7ACFE6FFC698A4C2F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C71DAC28166C5EB10569F57DD2EE59E7 /* Info.plist */,
+				EF6875D3B87C63237BC9F18F4822C1D1 /* SWRevealViewController.modulemap */,
+				851B2F6CE818EA05566B2D80738224E8 /* SWRevealViewController.xcconfig */,
+				7352004CB740BD279C846321C2F221DD /* SWRevealViewController-dummy.m */,
+				43DECC63EC0FD25EA6D891318709ACDF /* SWRevealViewController-prefix.pch */,
+				981EB48F5CFE0A60858A21C999E0829F /* SWRevealViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWRevealViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38DB99E342568CD684884A01EB811FC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A86E04CC53645701F5E9764F5ECC9D /* SWRevealViewController-umbrella.h in Headers */,
+				2A09758DF98D294414E7F303F6003DB6 /* SWRevealViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9872385F8FE9E1F88BDD3E228726C50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3FF832C38EF9E6B98C3EA072618CC8 /* Pods-concept-ios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8C1B3C1E0BF2B07986011A84A6E26F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A61C910DACFCF8EB29281ED3DA0B81A /* FBKVOController.h in Headers */,
+				5EF4005FEC65BC997748AB46617ADD3C /* KVOController-umbrella.h in Headers */,
+				75DDA6C4B1C2D744D9CD65A5ED42C54F /* KVOController.h in Headers */,
+				094ED1211626E44658BCE20A562008C3 /* NSObject+FBKVOController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FD71B68F137A8C7E3E8EAED4AF8F523 /* SWRevealViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3098EFE713B37EBD8F2425A8AD21F046 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */;
+			buildPhases = (
+				C678321386CBD3E5A3A62DF525607CB9 /* Sources */,
+				ECE89CD9F668C561DB50DFA773A5EB39 /* Frameworks */,
+				38DB99E342568CD684884A01EB811FC6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWRevealViewController;
+			productName = SWRevealViewController;
+			productReference = FB8E27A5F27DF65871C994FE35F214A9 /* SWRevealViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22E59EB39161F1F43C742A0638E1306 /* Build configuration list for PBXNativeTarget "KVOController" */;
+			buildPhases = (
+				EDDCB54C5116A800B6769D0BFC23824A /* Sources */,
+				5DC0F2B042C498212CC27D9F3F40E482 /* Frameworks */,
+				EF8C1B3C1E0BF2B07986011A84A6E26F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVOController;
+			productName = KVOController;
+			productReference = A2A6D3127ACCFF18BAE96B991CC9B1BC /* KVOController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8C0FDC2984D031A97F3ADAD29A2AB39 /* Pods-concept-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B45D08992D1A1B79A8BA634950A406E /* Build configuration list for PBXNativeTarget "Pods-concept-ios" */;
+			buildPhases = (
+				3B5227F999990239E6C01A59BE3B1487 /* Sources */,
+				0BB9E3449415BB0D24598553BDC6F3CB /* Frameworks */,
+				D9872385F8FE9E1F88BDD3E228726C50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1F7390E83F1DAB1A0D9C8B0B7BC1C4 /* PBXTargetDependency */,
+				CFECE8C7075BE569C36945CB275B90EC /* PBXTargetDependency */,
+			);
+			name = "Pods-concept-ios";
+			productName = "Pods-concept-ios";
+			productReference = ACF6A89C37EB6046B4A31EAAEADAA1CD /* Pods_concept_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 77C803E45DBE6F1CC126EFE2623E5080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */,
+				F8C0FDC2984D031A97F3ADAD29A2AB39 /* Pods-concept-ios */,
+				7FD71B68F137A8C7E3E8EAED4AF8F523 /* SWRevealViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B5227F999990239E6C01A59BE3B1487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BBF00177ED5158D08ADDE76A91C2EF /* Pods-concept-ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C678321386CBD3E5A3A62DF525607CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD86A930993C5CB207904BA03E2A4F2B /* SWRevealViewController-dummy.m in Sources */,
+				46C6F8B1BDFB11C6EFDE6B5B9E172F72 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDCB54C5116A800B6769D0BFC23824A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A846EC48CD3B2E7BBE318B7C4CD754 /* FBKVOController.m in Sources */,
+				16A56F7A6E2AFE504DEC2C768660B409 /* KVOController-dummy.m in Sources */,
+				5E3E20ED69923AF65ED92CE43DC97BFB /* NSObject+FBKVOController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D1F7390E83F1DAB1A0D9C8B0B7BC1C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVOController;
+			target = F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */;
+			targetProxy = 09D0ACB502D74CD3A660625D58BC2BB5 /* PBXContainerItemProxy */;
+		};
+		CFECE8C7075BE569C36945CB275B90EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWRevealViewController;
+			target = 7FD71B68F137A8C7E3E8EAED4AF8F523 /* SWRevealViewController */;
+			targetProxy = F07BDCB051B724D725F41B9F689FAB18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23BE5310252449885F74F65DB74104AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705A64E552BEE7C773CD49905B1CA2C4 /* KVOController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVOController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
+				PRODUCT_NAME = KVOController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66A55A0CAB3020FEC9B494E3230554EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705A64E552BEE7C773CD49905B1CA2C4 /* KVOController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVOController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
+				PRODUCT_NAME = KVOController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7616288459BC28164BA3E6ABCBB4EDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851B2F6CE818EA05566B2D80738224E8 /* SWRevealViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWRevealViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController.modulemap";
+				PRODUCT_NAME = SWRevealViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A898CE2E4221EDCF4BCCEF769AC3DC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77A1DD05A06091BD3FA33BA15D9027C /* Pods-concept-ios.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-concept-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-concept-ios/Pods-concept-ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_concept_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3F6325EE1772582CBC5EC3794D34A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5482C78CA6B2B241FA199D2019DAE5FE /* Pods-concept-ios.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-concept-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-concept-ios/Pods-concept-ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_concept_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F64D212999844D633D36A47CDC501F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851B2F6CE818EA05566B2D80738224E8 /* SWRevealViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWRevealViewController/SWRevealViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWRevealViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWRevealViewController/SWRevealViewController.modulemap";
+				PRODUCT_NAME = SWRevealViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B45D08992D1A1B79A8BA634950A406E /* Build configuration list for PBXNativeTarget "Pods-concept-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A898CE2E4221EDCF4BCCEF769AC3DC47 /* Debug */,
+				F3F6325EE1772582CBC5EC3794D34A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3098EFE713B37EBD8F2425A8AD21F046 /* Build configuration list for PBXNativeTarget "SWRevealViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7616288459BC28164BA3E6ABCBB4EDD2 /* Debug */,
+				F64D212999844D633D36A47CDC501F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22E59EB39161F1F43C742A0638E1306 /* Build configuration list for PBXNativeTarget "KVOController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BE5310252449885F74F65DB74104AD /* Debug */,
+				66A55A0CAB3020FEC9B494E3230554EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

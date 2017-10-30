@@ -30,7 +30,7 @@ import UIKit
         print("TAG::::::::::: \(tag)")
         let tagInt = Int(tag)
         print("111111")
-        let adView = AFAdInline(masterTagId: tagInt!, presenting: self, adSize: CGSize(width: 320, height: 320))!
+        let adView = AFAdInline(masterTagId: 494067, presenting: self, adSize: CGSize(width: 320, height: 320))!
         adView.delegate = self
         print("2222  \(adView.delegate)")
         adView.loadAd()

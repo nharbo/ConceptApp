@@ -21,6 +21,7 @@
 		A837B4731EBBBD2D004F6647 /* SitesAndAppsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A837B4721EBBBD2D004F6647 /* SitesAndAppsTableViewCell.swift */; };
 		A83F0D341EC0D21C005E1EF4 /* Dfp320x320.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83F0D331EC0D21C005E1EF4 /* Dfp320x320.swift */; };
 		A83F0D361EC0D233005E1EF4 /* Dfp300x250.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83F0D351EC0D233005E1EF4 /* Dfp300x250.swift */; };
+		A86DAC261FA77ECE0004B9D8 /* libAdapterAdformAdvertising.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A86DAC241FA77D960004B9D8 /* libAdapterAdformAdvertising.a */; };
 		A8844E8B1ECB693500BB9ED6 /* Dfp320x160.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8844E8A1ECB693500BB9ED6 /* Dfp320x160.swift */; };
 		A8844E901ECB72C100BB9ED6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8844E8F1ECB72C100BB9ED6 /* AdSupport.framework */; };
 		A8844E921ECB72C900BB9ED6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8844E911ECB72C900BB9ED6 /* AudioToolbox.framework */; };
@@ -73,6 +74,7 @@
 		A837B4721EBBBD2D004F6647 /* SitesAndAppsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitesAndAppsTableViewCell.swift; sourceTree = "<group>"; };
 		A83F0D331EC0D21C005E1EF4 /* Dfp320x320.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dfp320x320.swift; sourceTree = "<group>"; };
 		A83F0D351EC0D233005E1EF4 /* Dfp300x250.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dfp300x250.swift; sourceTree = "<group>"; };
+		A86DAC241FA77D960004B9D8 /* libAdapterAdformAdvertising.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdapterAdformAdvertising.a; path = AdformAdvertisingDFPAdapter/libAdapterAdformAdvertising.a; sourceTree = "<group>"; };
 		A8844E8A1ECB693500BB9ED6 /* Dfp320x160.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dfp320x160.swift; sourceTree = "<group>"; };
 		A8844E8C1ECB6F1B00BB9ED6 /* concept-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "concept-ios-Bridging-Header.h"; sourceTree = "<group>"; };
 		A8844E8F1ECB72C100BB9ED6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -120,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86DAC261FA77ECE0004B9D8 /* libAdapterAdformAdvertising.a in Frameworks */,
 				A8844EBC1ECB738F00BB9ED6 /* WebKit.framework in Frameworks */,
 				A8844EBA1ECB738700BB9ED6 /* EventKitUI.framework in Frameworks */,
 				A8844EB81ECB737D00BB9ED6 /* libz.tbd in Frameworks */,
@@ -151,6 +154,7 @@
 		2DCBDCE5BDF552AC5F56665C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A86DAC241FA77D960004B9D8 /* libAdapterAdformAdvertising.a */,
 				A8F628CF1F56A71000671360 /* AdformAdvertisingDFPAdapter */,
 				A8844EBB1ECB738F00BB9ED6 /* WebKit.framework */,
 				A8844EB91ECB738700BB9ED6 /* EventKitUI.framework */,
@@ -457,9 +461,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-concept-ios/Pods-concept-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
+				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -472,13 +481,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-concept-ios-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -636,6 +648,10 @@
 				INFOPLIST_FILE = "concept-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdformAdvertisingDFPAdapter",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dk.concept.concept;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -658,6 +674,10 @@
 				INFOPLIST_FILE = "concept-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdformAdvertisingDFPAdapter",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = dk.concept.concept;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
